@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/daniel/Desktop/Contador_Hexadecimal_8/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/daniel/Desktop/Contador_Hexadecimal_8/xst"
+elaborate
+-ifn Decodificador.prj
+-ifmt mixed

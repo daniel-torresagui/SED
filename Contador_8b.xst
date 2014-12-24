@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/xst"
+elaborate
+-ifn Contador_8b.prj
+-ifmt mixed

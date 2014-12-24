@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Contador_Hexadecimal" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode></ClosedNode>
+         <ClosedNode>/Contador_4b - structural C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|Contador_Hexadecimal|Contador_4b.vhd</ClosedNode>
+         <ClosedNode>/Contador_8b - STRUCTURAL C:|Users|daniel|Desktop|Contador_Hexadecimal_8|Contador_8b.vhd</ClosedNode>
+         <ClosedNode>/Contador_8b - STRUCTURAL C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|Contador_Hexadecimal|Contador_8b.vhd</ClosedNode>
+         <ClosedNode>/Contador_8b - STRUCTURAL C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_8b.vhd</ClosedNode>
+         <ClosedNode>/Contador_8b - STRUCTURAL C:|Users|sed|Desktop|Contador_Hexadecimal_8|Contador_8b.vhd/L5 - Contador_4b - behavioral</ClosedNode>
+         <ClosedNode>/Contador_8b - STRUCTURAL C:|Users|sed|Desktop|Contador_Hexadecimal_8|Contador_8b.vhd/L7 - Contador_4b - behavioral</ClosedNode>
+         <ClosedNode>/Contador_A_7seg - Structural C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_A_7seg.vhd/Mapeo_Contador_8b - Contador_8b - STRUCTURAL</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc3s200-5ft256</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000ab000000020000000000000000000000000200000064ffffffff000000810000000300000002000000ab0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>xc3s200-5ft256</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001860000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Contador_4b.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AND2_tb - behavior C:|Users|daniel|Desktop|Contador_Hexadecimal_8|AND2_tb.vhd</ClosedNode>
+         <ClosedNode>/AND2_tb - behavior C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|AND2_tb.vhd</ClosedNode>
+         <ClosedNode>/AND2_tb - behavior C:|Users|sed|Desktop|Contador_Hexadecimal_8|AND2_tb.vhd</ClosedNode>
+         <ClosedNode>/AND3_tb - behavior C:|Users|daniel|Desktop|Contador_Hexadecimal_8|AND3_tb.vhd</ClosedNode>
+         <ClosedNode>/AND3_tb - behavior C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|AND3_tb.vhd</ClosedNode>
+         <ClosedNode>/AND3_tb - behavior C:|Users|sed|Desktop|Contador_Hexadecimal_8|AND3_tb.vhd</ClosedNode>
+         <ClosedNode>/Contador_16tb - behavioral C:|Users|daniel|Desktop|Contador_Hexadecimal_8|Contador_16tb.vhd</ClosedNode>
+         <ClosedNode>/Contador_16tb - behavioral C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_16tb.vhd</ClosedNode>
+         <ClosedNode>/Contador_16tb - behavioral C:|Users|sed|Desktop|Contador_Hexadecimal_8|Contador_16tb.vhd/uut - Contador_8b - STRUCTURAL</ClosedNode>
+         <ClosedNode>/Contador_16tb - behavioral C:|Users|sed|Desktop|Contador_Hexadecimal_8|Contador_16tb.vhd/uut - Contador_8b - STRUCTURAL/L5 - Contador_4b - structural</ClosedNode>
+         <ClosedNode>/Contador_16tb - behavioral C:|Users|sed|Desktop|Contador_Hexadecimal_8|Contador_16tb.vhd/uut - Contador_8b - STRUCTURAL/L7 - Contador_4b - structural</ClosedNode>
+         <ClosedNode>/Contador_4b_tb - behavior C:|Users|daniel|Desktop|Contador_Hexadecimal_8|Contador_4b_tb.vhd</ClosedNode>
+         <ClosedNode>/Contador_4b_tb - behavior C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_4b_tb.vhd/uut - Contador_4b - behavioral</ClosedNode>
+         <ClosedNode>/Contador_4b_tb - behavior C:|Users|sed|Desktop|Contador_Hexadecimal_8|Contador_4b_tb.vhd/uut - Contador_4b - behavioral</ClosedNode>
+         <ClosedNode>/Contador_4b_tb - behavior C:|Users|sed|Desktop|Contador_Hexadecimal_8|Contador_4b_tb.vhd/uut - Contador_4b - structural</ClosedNode>
+         <ClosedNode>/Contador_8b_tb - behavioral C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_16tb.vhd/uut - Contador_8b - STRUCTURAL</ClosedNode>
+         <ClosedNode>/Contador_A_7seg - Structural C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_A_7seg.vhd</ClosedNode>
+         <ClosedNode>/Contador_a_7Seg_tb - behavior C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_a_7Seg_tb.vhd</ClosedNode>
+         <ClosedNode>/Decodificador_TB - behavior C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Decodificador_tb.vhd</ClosedNode>
+         <ClosedNode>/FFJK_tb - behavior C:|Users|daniel|Desktop|Contador_Hexadecimal_8|FFJK_tb.vhd</ClosedNode>
+         <ClosedNode>/FFJK_tb - behavior C:|Users|sed|Desktop|Contador_Hexadecimal_8|FFJK_tb.vhd</ClosedNode>
+         <ClosedNode>/FFSR_tb - behavior C:|Users|sed|Desktop|Contador_Hexadecimal_8|FFSR_tb.vhd</ClosedNode>
+         <ClosedNode>/INV_tb - behavior C:|Users|daniel|Desktop|Contador_Hexadecimal_8|INV_tb.vhd</ClosedNode>
+         <ClosedNode>/INV_tb - behavior C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|INV_tb.vhd</ClosedNode>
+         <ClosedNode>/INV_tb - behavior C:|Users|sed|Desktop|Contador_Hexadecimal_8|INV_tb.vhd</ClosedNode>
+         <ClosedNode>/OR2_tb - behavior C:|Users|daniel|Desktop|Contador_Hexadecimal_8|OR2_tb.vhd</ClosedNode>
+         <ClosedNode>/OR2_tb - behavior C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|OR2_tb.vhd</ClosedNode>
+         <ClosedNode>/OR2_tb - behavior C:|Users|sed|Desktop|Contador_Hexadecimal_8|OR2_tb.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Contador_8b_tb - behavioral (C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_16tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000175000000020000000000000000000000000200000064ffffffff000000810000000300000002000001750000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Contador_8b_tb - behavioral (C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_16tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

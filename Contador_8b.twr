@@ -1,0 +1,136 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml Contador_8b.twx Contador_8b.ncd -o Contador_8b.twr
+Contador_8b.pcf
+
+Design file:              Contador_8b.ncd
+Physical constraint file: Contador_8b.pcf
+Device,package,speed:     xc3s200,ft256,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+A<0>        |   -1.539(R)|    3.479(R)|COUNT             |   0.000|
+A<1>        |   -1.018(R)|    3.041(R)|COUNT             |   0.000|
+A<2>        |   -1.365(R)|    3.347(R)|COUNT             |   0.000|
+A<3>        |   -1.579(R)|    3.519(R)|COUNT             |   0.000|
+A<4>        |   -1.104(R)|    2.970(R)|COUNT2            |   0.000|
+A<5>        |   -0.931(R)|    2.937(R)|COUNT2            |   0.000|
+A<6>        |   -0.917(R)|    2.816(R)|COUNT2            |   0.000|
+A<7>        |   -0.883(R)|    2.896(R)|COUNT2            |   0.000|
+LOAD        |   -0.237(R)|    2.877(R)|COUNT             |   0.000|
+            |   -0.232(R)|    2.932(R)|COUNT2            |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock ENABLE
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+A<0>        |   -1.596(R)|    3.551(R)|COUNT             |   0.000|
+A<1>        |   -1.075(R)|    3.113(R)|COUNT             |   0.000|
+A<2>        |   -1.422(R)|    3.419(R)|COUNT             |   0.000|
+A<3>        |   -1.636(R)|    3.591(R)|COUNT             |   0.000|
+A<4>        |   -1.182(R)|    3.068(R)|COUNT2            |   0.000|
+A<5>        |   -1.009(R)|    3.035(R)|COUNT2            |   0.000|
+A<6>        |   -0.995(R)|    2.914(R)|COUNT2            |   0.000|
+A<7>        |   -0.961(R)|    2.994(R)|COUNT2            |   0.000|
+LOAD        |   -0.294(R)|    2.949(R)|COUNT             |   0.000|
+            |   -0.310(R)|    3.030(R)|COUNT2            |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+B<0>        |   10.962(R)|COUNT             |   0.000|
+B<1>        |    9.875(R)|COUNT             |   0.000|
+B<2>        |   10.570(R)|COUNT             |   0.000|
+B<3>        |    9.935(R)|COUNT             |   0.000|
+B<4>        |   10.533(R)|COUNT2            |   0.000|
+B<5>        |    9.795(R)|COUNT2            |   0.000|
+B<6>        |    9.518(R)|COUNT2            |   0.000|
+B<7>        |   10.063(R)|COUNT2            |   0.000|
+------------+------------+------------------+--------+
+
+Clock ENABLE to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+B<0>        |   11.034(R)|COUNT             |   0.000|
+B<1>        |    9.947(R)|COUNT             |   0.000|
+B<2>        |   10.642(R)|COUNT             |   0.000|
+B<3>        |   10.007(R)|COUNT             |   0.000|
+B<4>        |   10.631(R)|COUNT2            |   0.000|
+B<5>        |    9.893(R)|COUNT2            |   0.000|
+B<6>        |    9.616(R)|COUNT2            |   0.000|
+B<7>        |   10.161(R)|COUNT2            |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.183|         |         |         |
+ENABLE         |    3.183|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ENABLE
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.183|         |         |         |
+ENABLE         |    3.183|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Dec 03 18:05:24 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 161 MB
+
+
+

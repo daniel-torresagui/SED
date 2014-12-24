@@ -1,0 +1,108 @@
+V3 76
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/AND2.vhd 2014/12/02.16:52:00 P.20131013
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/AND3.vhd 2014/12/04.17:09:04 P.20131013
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/Contador_4b.vhd 2014/12/04.19:11:40 P.20131013
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/Contador_8b.vhd 2014/12/04.19:25:34 P.20131013
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/Decodificador.vhd 2014/12/14.14:59:21 P.20131013
+AR work/Decodificador/Behavioral -1 \
+      FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/Decodificador.vhd \
+      EN work/Decodificador 1418661131
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/FFJK.vhd 2014/12/02.23:30:28 P.20131013
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/FFSR.vhd 2014/12/04.17:24:16 P.20131013
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/INV.vhd 2014/12/02.16:52:00 P.20131013
+FL C:/Users/daniel/Desktop/Contador_Hexadecimal_8/OR2.vhd 2014/12/02.16:52:00 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/AND2.vhd" 2014/12/02.16:51:58 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/AND3.vhd" 2014/12/02.18:02:11 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/Contador_4b.vhd" 2014/12/02.17:34:21 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/Contador_8b.vhd" 2014/12/02.18:18:12 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/FFJK.vhd" 2014/12/02.23:30:27 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/FFSR.vhd" 2014/12/02.22:24:30 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/INV.vhd" 2014/12/02.16:51:58 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/OR2.vhd" 2014/12/02.16:51:58 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/AND2.vhd" 2014/12/02.16:51:58 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/AND3.vhd" 2014/12/02.18:02:11 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_4b.vhd" 2014/12/02.17:34:21 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.vhd" 2014/12/02.18:18:12 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/FFJK.vhd" 2014/12/02.16:10:11 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/FFSR.vhd" 2014/12/02.22:24:30 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/INV.vhd" 2014/12/02.16:51:58 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/OR2.vhd" 2014/12/02.16:51:58 P.20131013
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND2.vhd" 2014/12/24.00:51:05 P.20131013
+EN work/AND2 1419386729 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/AND2/Behavioral 1419386730 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND2.vhd" \
+      EN work/AND2 1419386729
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND3.vhd" 2014/12/04.17:09:04 P.20131013
+EN work/AND3 1419386710 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND3.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/AND3/Behavioral 1419386711 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND3.vhd" \
+      EN work/AND3 1419386710
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_4b.vhd" 2014/12/24.01:44:59 P.20131013
+EN work/Contador_4b 1419386739 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_4b.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Contador_4b/structural 1419386740 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_4b.vhd" \
+      EN work/Contador_4b 1419386739 CP AND2 CP INV CP OR2 CP FFJK
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_8b.vhd" 2014/12/15.17:26:54 P.20131013
+EN work/Contador_8b 1418661129 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_8b.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Contador_8b/STRUCTURAL 1418661130 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_8b.vhd" \
+      EN work/Contador_8b 1418661129 CP AND2 CP INV CP S1 CP FFSR CP Contador_4b \
+      CP OR2 CP AND3 CP R2 CP Limit_DOWN
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_A_7seg.vhd" 2014/12/15.16:46:31 P.20131013
+EN work/Contador_A_7seg 1418661133 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_A_7seg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Contador_A_7seg/Structural 1418661134 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_A_7seg.vhd" \
+      EN work/Contador_A_7seg 1418661133 CP Contador_8b CP Decodificador
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Decodificador.vhd" 2014/12/14.19:44:34 P.20131013
+EN work/Decodificador 1418661131 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Decodificador.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Decodificador/Dataflow 1418661132 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Decodificador.vhd" \
+      EN work/Decodificador 1418661131
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFJK.vhd" 2014/12/24.00:53:21 P.20131013
+EN work/FFJK 1419386735 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFJK.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFJK/Behavioral 1419386736 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFJK.vhd" \
+      EN work/FFJK 1419386735
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFSR.vhd" 2014/12/24.00:53:21 P.20131013
+EN work/FFSR 1419386737 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFSR.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFSR/Behavioral 1419386738 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFSR.vhd" \
+      EN work/FFSR 1419386737
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/INV.vhd" 2014/12/24.00:51:05 P.20131013
+EN work/INV 1419386731 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/INV.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/INV/Behavioral 1419386732 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/INV.vhd" \
+      EN work/INV 1419386731
+FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/OR2.vhd" 2014/12/24.00:51:05 P.20131013
+EN work/OR2 1419386733 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/OR2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/OR2/Behavioral 1419386734 \
+      FL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/OR2.vhd" \
+      EN work/OR2 1419386733
+FL C:/Users/sed/Desktop/Contador_Hexadecimal_8/AND2.vhd 2014/12/02.16:52:00 P.20131013
+FL C:/Users/sed/Desktop/Contador_Hexadecimal_8/AND3.vhd 2014/12/04.17:09:02 P.20131013
+FL C:/Users/sed/Desktop/Contador_Hexadecimal_8/Contador_4b.vhd 2014/12/04.19:11:38 P.20131013
+FL C:/Users/sed/Desktop/Contador_Hexadecimal_8/Contador_8b.vhd 2014/12/04.19:25:32 P.20131013
+FL C:/Users/sed/Desktop/Contador_Hexadecimal_8/FFJK.vhd 2014/12/02.23:30:28 P.20131013
+FL C:/Users/sed/Desktop/Contador_Hexadecimal_8/FFSR.vhd 2014/12/04.17:24:14 P.20131013
+FL C:/Users/sed/Desktop/Contador_Hexadecimal_8/INV.vhd 2014/12/02.16:52:00 P.20131013
+FL C:/Users/sed/Desktop/Contador_Hexadecimal_8/OR2.vhd 2014/12/02.16:52:00 P.20131013

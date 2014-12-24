@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.xst" -ofn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.xst" -ofn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.xst" -ofn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.xst" -ofn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal/Contador_8b.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/Contador_8b.xst" -ofn "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/Contador_Hexadecimal - copia/Contador_8b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "Contador_8b.ngc" Contador_8b.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o Contador_8b_map.ncd Contador_8b.ngd Contador_8b.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_8b_map.ncd Contador_8b.ncd Contador_8b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador_8b.twx Contador_8b.ncd -o Contador_8b.twr Contador_8b.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/Contador_Hexadecimal_8/Contador_8b.xst" -ofn "C:/Users/sed/Desktop/Contador_Hexadecimal_8/Contador_8b.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/Contador_Hexadecimal_8/Contador_8b.xst" -ofn "C:/Users/daniel/Desktop/Contador_Hexadecimal_8/Contador_8b.syr" 
+vhdtdtfi -prj Contador_Hexadecimal -o "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_8b.vhi" -module Contador_8b -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work OR2.vhd -lib work INV.vhd -lib work FFJK.vhd -lib work AND2.vhd -lib work FFSR.vhd -lib work Contador_4b.vhd -lib work AND3.vhd -lib work Contador_8b.vhd 

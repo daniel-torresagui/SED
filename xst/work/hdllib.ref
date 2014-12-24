@@ -1,0 +1,22 @@
+AR and3 behavioral "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND3.vhd" sub00/vhpl13 1419386742
+EN inv NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/INV.vhd" sub00/vhpl04 1419386731
+AR inv behavioral "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/INV.vhd" sub00/vhpl05 1419386732
+AR contador_4b behavioral "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_4b.vhd" sub00/vhpl16 1418661126
+AR ffjk behavioral "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFJK.vhd" sub00/vhpl01 1419386736
+AR contador_4b structural "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_4b.vhd" sub00/vhpl03 1419386740
+EN contador_a_7seg NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_A_7seg.vhd" sub00/vhpl20 1418661133
+EN ffjk NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFJK.vhd" sub00/vhpl00 1419386735
+AR and2 behavioral "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND2.vhd" sub00/vhpl07 1419386730
+AR ffsr behavioral "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFSR.vhd" sub00/vhpl11 1419386738
+EN or2 NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/OR2.vhd" sub00/vhpl08 1419386733
+EN contador_4b NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_4b.vhd" sub00/vhpl02 1419386739
+EN decodificador NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Decodificador.vhd" sub00/vhpl17 1418661131
+AR or2 behavioral "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/OR2.vhd" sub00/vhpl09 1419386734
+EN contador_8b NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_8b.vhd" sub00/vhpl14 1419386743
+EN ffsr NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/FFSR.vhd" sub00/vhpl10 1419386737
+AR contador_8b structural "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_8b.vhd" sub00/vhpl15 1419386744
+AR contador_a_7seg structural "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Contador_A_7seg.vhd" sub00/vhpl21 1418661134
+EN and2 NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND2.vhd" sub00/vhpl06 1419386729
+EN and3 NULL "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/AND3.vhd" sub00/vhpl12 1419386741
+AR decodificador behavioral C:/Users/daniel/Desktop/Contador_Hexadecimal_8/Decodificador.vhd sub00/vhpl18 1418564225
+AR decodificador dataflow "C:/Users/daniel/Dropbox/Universidad/Semestre 7/Sis. digitales/laboratorio/jodido_guille/Decodificador.vhd" sub00/vhpl19 1418661132

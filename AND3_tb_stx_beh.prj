@@ -1,0 +1,2 @@
+vhdl isim_temp "AND3.vhd"
+vhdl isim_temp "AND3_tb.vhd"
