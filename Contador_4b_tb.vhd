@@ -28,10 +28,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
  
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
- 
 ENTITY Contador_4b_tb IS
 END Contador_4b_tb;
  
@@ -41,45 +37,33 @@ ARCHITECTURE behavior OF Contador_4b_tb IS
  
     COMPONENT Contador_4b
     PORT(
-         UP : IN  std_logic;
-         DOWN : IN  std_logic;
-         CLK : IN  std_logic;
-         LOAD : IN  std_logic;
-         A0 : IN  std_logic;
-         A1 : IN  std_logic;
-         A2 : IN  std_logic;
-         A3 : IN  std_logic;
-         RESET : IN  std_logic;
+         UP     : IN  std_logic;
+         DOWN   : IN  std_logic;
+         CLK    : IN  std_logic;
+         LOAD   : IN  std_logic;
+         CARGA  : IN  std_logic_vector(3 downto 0);
+         RESET  : IN  std_logic;
 			TRIGGER: IN std_logic;
-         B0 : OUT  std_logic;
-         B1 : OUT  std_logic;
-         B2 : OUT  std_logic;
-         B3 : OUT  std_logic;
-         Q : OUT  std_logic;
-         Q_N : OUT  std_logic
+         OUTPUT : OUT  std_logic_vector(3 downto 0);
+         Q      : OUT  std_logic;
+         Q_N    : OUT  std_logic
         );
     END COMPONENT;
     
 
    --Inputs
-   signal UP : std_logic := '0';
-   signal DOWN : std_logic := '0';
-   signal CLK : std_logic := '0';
-   signal LOAD : std_logic := '0';
-   signal A0 : std_logic := '0';
-   signal A1 : std_logic := '0';
-   signal A2 : std_logic := '0';
-   signal A3 : std_logic := '0';
-   signal RESET : std_logic := '0';
+   signal UP     : std_logic := '0';
+   signal DOWN   : std_logic := '0';
+   signal CLK    : std_logic := '0';
+   signal LOAD   : std_logic := '0';
+   signal CARGA  : std_logic_vector(3 donwto 0) := "0000";
+   signal RESET  : std_logic := '0';
 	signal TRIGGER: std_logic := '0';
 
  	--Outputs
-   signal B0 : std_logic;
-   signal B1 : std_logic;
-   signal B2 : std_logic;
-   signal B3 : std_logic;
-   signal Q : std_logic;
-   signal Q_N : std_logic;
+   signal OUTPUT : std_logic_vector(3 downto 0);
+   signal Q      : std_logic;
+   signal Q_N    : std_logic;
 
    -- Clock period definitions
    constant CLK_period : time := 10 ns;
@@ -92,16 +76,10 @@ BEGIN
           DOWN => DOWN,
           CLK => CLK,
           LOAD => LOAD,
-          A0 => A0,
-          A1 => A1,
-          A2 => A2,
-          A3 => A3,
+          CARGA => CARGA,
           RESET => RESET,
 			 TRIGGER => TRIGGER,
-          B0 => B0,
-          B1 => B1,
-          B2 => B2,
-          B3 => B3,
+          OUTPUT => OUTPUT,
           Q => Q,
           Q_N => Q_N
         );
@@ -120,31 +98,33 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-		Reset <= '1';
-      wait for 10 ns;	
-		Reset <= '0';
 
       wait for CLK_period*20;
 
       -- insert stimulus here 
+		-- En primer lugar comprobamos que funciona bien el Trigger, para ello iniciamo la cuenta ascendente
+		-- mientras el trigger está a cero
 		UP <='1';
 		Wait for 30 ns;
+		-- Observamos que hace bien la cuenta ascendente
 		TRIGGER<='1';
 		Wait for 200ns;
+		-- Observamos que hace bien la cuenta descendente
 		Up <='0';
 		Down <= '1';
 		Wait for 50ns;
+		-- Ponemos a prueba el reset y la carga. En este momento se deberia detener la cuenta, reiniciarse a cero
+		-- y aunque tenemos una carga, no ponerse hasta que no activemos load
 		TRIGGER<='0';
 		Down <= '0';
 		Reset <='1';
-		A0 <= '1';
-		A1 <= '1';
-		A2 <= '1';
-		A3 <= '1';
+		CARGA <= "1111";
 		Wait for 50ns;
 		Reset <= '0';
+		-- Esperamos después de quitar el reset para asegurarnos de que el contador no cuenta
 		Wait for 20ns;
 		Load <= '1';
+		-- Comprobamos que todo esta bien dejando descender el contador
 		Wait for 50ns;
 		Load <= '0';
 		Down <= '1';

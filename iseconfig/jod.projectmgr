@@ -7,6 +7,7 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Contador_A_7seg - Structural C:|Users|daniel|Desktop|GITHUB|SED|Contador_A_7seg.vhd/Mapeo_Contador_8b - Contador_8b - STRUCTURAL</ClosedNode>
          <ClosedNode>/Contador_A_7seg - Structural C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_A_7seg.vhd/Mapeo_Contador_8b - Contador_8b - STRUCTURAL</ClosedNode>
          <ClosedNode>/Contador_A_7seg - Structural C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_A_7seg.vhd/Mapeo_Contador_8b - Contador_8b - STRUCTURAL/HIGH_LEVEL - Contador_4b - Structural</ClosedNode>
          <ClosedNode>/Contador_A_7seg - Structural C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_A_7seg.vhd/Mapeo_Contador_8b - Contador_8b - STRUCTURAL/L5 - Contador_4b - Structural</ClosedNode>
@@ -15,13 +16,13 @@
          <ClosedNode>/Contador_A_7seg - Structural C:|Users|daniel|Dropbox|Universidad|Semestre 7|Sis. digitales|laboratorio|jodido_guille|Contador_A_7seg.vhd/Mapeo_Contador_8b - Contador_8b - STRUCTURAL/LOW_LEVEL - Contador_4b - Structural</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Mapeo_Contador_8b - Contador_8b - STRUCTURAL (C:/Users/daniel/Desktop/GITHUB/SED/Contador_8b.vhd)</SelectedItem>
+         <SelectedItem>Mapeo_Decodificador_Display2 - Decodificador - Dataflow (C:/Users/daniel/Desktop/GITHUB/SED/Decodificador.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f7000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f70000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Mapeo_Contador_8b - Contador_8b - STRUCTURAL (C:/Users/daniel/Desktop/GITHUB/SED/Contador_8b.vhd)</CurrentItem>
+      <CurrentItem>Mapeo_Decodificador_Display2 - Decodificador - Dataflow (C:/Users/daniel/Desktop/GITHUB/SED/Decodificador.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -79,5 +80,58 @@
       <CurrentItem/>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AND2_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|AND2_tb.vhd</ClosedNode>
+         <ClosedNode>/AND3_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|AND3_tb.vhd</ClosedNode>
+         <ClosedNode>/Adaptador_entrada_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|Adaptador_entrada_tb.vhd</ClosedNode>
+         <ClosedNode>/Contador_4b_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|Contador_4b_tb.vhd</ClosedNode>
+         <ClosedNode>/Contador_4b_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|Contador_4b_tb.vhd/uut - Contador_4b - Structural</ClosedNode>
+         <ClosedNode>/Contador_8b_tb - behavioral C:|Users|daniel|Desktop|GITHUB|SED|Contador_16tb.vhd</ClosedNode>
+         <ClosedNode>/Contador_8b_tb - behavioral C:|Users|daniel|Desktop|GITHUB|SED|Contador_16tb.vhd/uut - Contador_8b - STRUCTURAL</ClosedNode>
+         <ClosedNode>/Contador_a_7Seg_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|Contador_a_7Seg_tb.vhd</ClosedNode>
+         <ClosedNode>/Contador_a_7Seg_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|Contador_a_7Seg_tb.vhd/uut - Contador_A_7seg - Structural/Mapeo_Contador_8b - Contador_8b - STRUCTURAL</ClosedNode>
+         <ClosedNode>/Decodificador_TB - behavior C:|Users|daniel|Desktop|GITHUB|SED|Decodificador_tb.vhd</ClosedNode>
+         <ClosedNode>/FFJK_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|FFJK_tb.vhd</ClosedNode>
+         <ClosedNode>/FFSR_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|FFSR_tb.vhd</ClosedNode>
+         <ClosedNode>/INV_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|INV_tb.vhd</ClosedNode>
+         <ClosedNode>/OR2_tb - behavior C:|Users|daniel|Desktop|GITHUB|SED|OR2_tb.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000189000000020000000000000000000000000200000064ffffffff000000810000000300000002000001890000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>FFSR_tb - behavior (C:/Users/daniel/Desktop/GITHUB/SED/FFSR_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
 </Project>
