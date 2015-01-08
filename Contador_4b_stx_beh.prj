@@ -1,5 +1,0 @@
-vhdl isim_temp "OR2.vhd"
-vhdl isim_temp "INV.vhd"
-vhdl isim_temp "FFJK.vhd"
-vhdl isim_temp "AND2.vhd"
-vhdl isim_temp "Contador_4b.vhd"
