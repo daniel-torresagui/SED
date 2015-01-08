@@ -2,15 +2,15 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   16:11:28 12/04/2014
+-- Create Date:   15:00:24 01/05/2015
 -- Design Name:   
--- Module Name:   C:/Users/sed/Desktop/Contador_Hexadecimal_8/FFJK_tb.vhd
--- Project Name:  Contador_Hexadecimal
+-- Module Name:   C:/Users/Serrano/Desktop/SED-master/Mascara_tb.vhd
+-- Project Name:  jod
 -- Target Device:  
 -- Tool versions:  
 -- Description:   
 -- 
--- VHDL Test Bench Created by ISE for module: FFJK
+-- VHDL Test Bench Created by ISE for module: Mascara
 -- 
 -- Dependencies:
 -- 
@@ -32,38 +32,30 @@ USE ieee.std_logic_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY FFJK_tb IS
-END FFJK_tb;
+ENTITY Mascara_tb IS
+END Mascara_tb;
  
-ARCHITECTURE behavior OF FFJK_tb IS 
+ARCHITECTURE behavior OF Mascara_tb IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT FFJK
+    COMPONENT Mascara
     PORT(
-         J : IN  std_logic;
-         K : IN  std_logic;
+         Display : IN  std_logic_vector(15 downto 0);
          CLK : IN  std_logic;
-         LOAD : IN  std_logic;
-         RESET : IN  std_logic;
-         PRE_CARGA : IN  std_logic;
-         Q : OUT  std_logic;
-         Q_N : OUT  std_logic
+         Output : OUT  std_logic_vector(6 downto 0);
+         Display_Select : OUT  std_logic_vector(3 downto 0)
         );
     END COMPONENT;
     
 
    --Inputs
-   signal J : std_logic := '0';
-   signal K : std_logic := '0';
+   signal Display : std_logic_vector(15 downto 0) := (others => '0');
    signal CLK : std_logic := '0';
-   signal LOAD : std_logic := '0';
-   signal RESET : std_logic := '0';
-   signal PRE_CARGA : std_logic := '0';
 
  	--Outputs
-   signal Q : std_logic;
-   signal Q_N : std_logic;
+   signal Output : std_logic_vector(6 downto 0);
+   signal Display_Select : std_logic_vector(3 downto 0);
 
    -- Clock period definitions
    constant CLK_period : time := 10 ns;
@@ -71,15 +63,11 @@ ARCHITECTURE behavior OF FFJK_tb IS
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: FFJK PORT MAP (
-          J => J,
-          K => K,
+   uut: Mascara PORT MAP (
+          Display => Display,
           CLK => CLK,
-          LOAD => LOAD,
-          RESET => RESET,
-          PRE_CARGA => PRE_CARGA,
-          Q => Q,
-          Q_N => Q_N
+          Output => Output,
+          Display_Select => Display_Select
         );
 
    -- Clock process definitions
@@ -100,33 +88,12 @@ BEGIN
 
       wait for CLK_period*10;
 
-      Wait for 100ns;
-		J <='1';
-		K <='0';
-		Wait for 100ns;
-		J <='0';
-		K <='1';
-		Wait for 100ns;
-		J <='1';
-		K <='1';
-		Wait for 20ns;
-		J <='1';
-		K <='0';
-		Wait for 100ns;
-		J <='0';
-		K <='0';
-		Wait for 20ns;
-		RESET<='1';
-		Wait for 30ns;
-		RESET<='0';
-		PRE_CARGA<='1';
-		Wait for 100ns;
-		LOAD<='1';
-		Wait for 100ns;
+      -- insert stimulus here 
+		Display<="0000000111111110";
+      Wait for 200ns;
 		assert false
 			report "Fin de la simulación..."
 			severity failure;
-
    end process;
 
 END;

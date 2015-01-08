@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Serrano/Desktop/SED-master/Mascara_tb_isim_beh.exe" -prj "C:/Users/Serrano/Desktop/SED-master/Mascara_tb_beh.prj" "work.Mascara_tb" 
