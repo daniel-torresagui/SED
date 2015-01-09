@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/GitHub/SED/Mascara_tb_isim_beh.exe" -prj "D:/GitHub/SED/Mascara_tb_beh.prj" "work.Mascara_tb" 
