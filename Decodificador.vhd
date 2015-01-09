@@ -1,16 +1,18 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: ETSIDI
+-- Engineer: Daniel Torres Aguilar 
+--				 Guillermo Serrano Martinez
+--				 Miguel Urias Martinez
 -- 
--- Create Date:    12:11:43 12/14/2014 
--- Design Name: 
--- Module Name:    Decodificador - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
+-- Create Date:    12:19:39 11/23/2014 
+-- Design Name: 	 Contador con conversor a 7 segmentos
+-- Module Name:    Decodificador_A_7segemenos
+-- Project Name:   Contador_Hexadecimal
+-- Target Devices: Spartan-3
+-- Tool versions:  
+-- Description:    Este conversor convierte la señal proveniente de los contadores
+--						 de 4 bits (0 - F) en la señal deseada para cada caso en los displays
+-- Dependencies:   
 --
 -- Revision: 
 -- Revision 0.01 - File Created
@@ -19,15 +21,6 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity Decodificador is
     Port ( CODE : in  STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -56,4 +49,3 @@ WITH CODE SELECT
 			 "1111001" WHEN "1110",
 			 "1110001" WHEN others;
 end Dataflow;
-

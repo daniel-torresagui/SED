@@ -15,7 +15,7 @@
 
   <!--                                                          -->
 
-  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
 
   <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
 
@@ -91,6 +91,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Contador_A_7seg_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Contador_A_7seg_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Contador_a_7Seg_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Contador_a_7Seg_tb_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Contador_a_7Seg_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Decoder_TB_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Decodificador.prj"/>
@@ -114,11 +115,6 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FFSR_tb_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="INV_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="INV_tb_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mascara_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mascara_tb_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Mascara_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Mascara_tb_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mascara_tb_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="OR2_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="OR2_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
@@ -127,7 +123,6 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -141,7 +136,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1420466480" xil_pn:in_ck="-3921514081178680942" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1420466480">
+    <transform xil_pn:end_ts="1418726220" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1418726220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -168,16 +163,14 @@
       <outfile xil_pn:name="FFSR_tb.vhd"/>
       <outfile xil_pn:name="INV.vhd"/>
       <outfile xil_pn:name="INV_tb.vhd"/>
-      <outfile xil_pn:name="Mascara.vhd"/>
-      <outfile xil_pn:name="Mascara_tb.vhd"/>
       <outfile xil_pn:name="OR2.vhd"/>
       <outfile xil_pn:name="OR2_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1420466484" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6642249580211100989" xil_pn:start_ts="1420466484">
+    <transform xil_pn:end_ts="1418726220" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:start_ts="1418726220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1420466484" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2151405609847146629" xil_pn:start_ts="1420466484">
+    <transform xil_pn:end_ts="1418726220" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:start_ts="1418726220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -185,7 +178,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1420466484" xil_pn:in_ck="-3921514081178680942" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1420466484">
+    <transform xil_pn:end_ts="1418726220" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1418726220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -213,32 +206,24 @@
       <outfile xil_pn:name="FFSR_tb.vhd"/>
       <outfile xil_pn:name="INV.vhd"/>
       <outfile xil_pn:name="INV_tb.vhd"/>
-      <outfile xil_pn:name="Mascara.vhd"/>
-      <outfile xil_pn:name="Mascara_tb.vhd"/>
       <outfile xil_pn:name="OR2.vhd"/>
       <outfile xil_pn:name="OR2_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1420466492" xil_pn:in_ck="-3921514081178680942" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2742004707541794589" xil_pn:start_ts="1420466484">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1418726229" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:start_ts="1418726220">
+      <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="Mascara_tb_beh.prj"/>
-      <outfile xil_pn:name="Mascara_tb_isim_beh.exe"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1420466493" xil_pn:in_ck="-3583231890774632135" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-811918210360435984" xil_pn:start_ts="1420466492">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1418723355" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:start_ts="1418723355">
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Mascara_tb_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <outfile xil_pn:name="Contador_a_7Seg_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>
     <transform xil_pn:end_ts="1417555332" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1417555332">
