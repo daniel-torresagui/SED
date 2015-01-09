@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-01-05T14:54:34</DateModified>
+  <DateModified>2015-01-09T13:52:44</DateModified>
   <ModuleName>Contador_A_7seg</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Serrano/Desktop/SED-master/iseconfig/Contador_A_7seg.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Serrano/Desktop/SED-master\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/GitHub/SED/iseconfig/Contador_A_7seg.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/GitHub/SED\</ImplementationReportsDirectory>
   <DateInitialized>2014-12-15T15:36:30</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
